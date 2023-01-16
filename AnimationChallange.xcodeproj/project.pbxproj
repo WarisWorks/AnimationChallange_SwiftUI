@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		590AFCAD2975257000B30A4D /* AnimationChallangeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590AFCAC2975257000B30A4D /* AnimationChallangeApp.swift */; };
+		590AFCAF2975257000B30A4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590AFCAE2975257000B30A4D /* ContentView.swift */; };
+		590AFCB12975257100B30A4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 590AFCB02975257100B30A4D /* Assets.xcassets */; };
+		590AFCB42975257100B30A4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 590AFCB32975257100B30A4D /* Preview Assets.xcassets */; };
+		590AFCBD2975263700B30A4D /* ALKATIP Kitab.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 590AFCBB2975263700B30A4D /* ALKATIP Kitab.ttf */; };
+		590AFCBE2975263700B30A4D /* ALKATIP Kitab Tom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 590AFCBC2975263700B30A4D /* ALKATIP Kitab Tom.ttf */; };
+		590AFCC12975267300B30A4D /* FontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590AFCC02975267300B30A4D /* FontView.swift */; };
+		590AFCC52975271E00B30A4D /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590AFCC42975271E00B30A4D /* Expense.swift */; };
+		590AFCC7297527A600B30A4D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590AFCC6297527A600B30A4D /* Home.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		590AFCA92975257000B30A4D /* AnimationChallange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationChallange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		590AFCAC2975257000B30A4D /* AnimationChallangeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationChallangeApp.swift; sourceTree = "<group>"; };
+		590AFCAE2975257000B30A4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		590AFCB02975257100B30A4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		590AFCB32975257100B30A4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		590AFCBB2975263700B30A4D /* ALKATIP Kitab.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ALKATIP Kitab.ttf"; sourceTree = "<group>"; };
+		590AFCBC2975263700B30A4D /* ALKATIP Kitab Tom.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ALKATIP Kitab Tom.ttf"; sourceTree = "<group>"; };
+		590AFCBF2975264C00B30A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		590AFCC02975267300B30A4D /* FontView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontView.swift; sourceTree = "<group>"; };
+		590AFCC42975271E00B30A4D /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		590AFCC6297527A600B30A4D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		590AFCA62975257000B30A4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		590AFCA02975257000B30A4D = {
+			isa = PBXGroup;
+			children = (
+				590AFCAB2975257000B30A4D /* AnimationChallange */,
+				590AFCAA2975257000B30A4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		590AFCAA2975257000B30A4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				590AFCA92975257000B30A4D /* AnimationChallange.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		590AFCAB2975257000B30A4D /* AnimationChallange */ = {
+			isa = PBXGroup;
+			children = (
+				590AFCC3297526F000B30A4D /* View */,
+				590AFCC2297526EA00B30A4D /* Model */,
+				590AFCBA2975262C00B30A4D /* Fonts */,
+				590AFCAC2975257000B30A4D /* AnimationChallangeApp.swift */,
+				590AFCC02975267300B30A4D /* FontView.swift */,
+				590AFCAE2975257000B30A4D /* ContentView.swift */,
+				590AFCBF2975264C00B30A4D /* Info.plist */,
+				590AFCB02975257100B30A4D /* Assets.xcassets */,
+				590AFCB22975257100B30A4D /* Preview Content */,
+			);
+			path = AnimationChallange;
+			sourceTree = "<group>";
+		};
+		590AFCB22975257100B30A4D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				590AFCB32975257100B30A4D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		590AFCBA2975262C00B30A4D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				590AFCBC2975263700B30A4D /* ALKATIP Kitab Tom.ttf */,
+				590AFCBB2975263700B30A4D /* ALKATIP Kitab.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		590AFCC2297526EA00B30A4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				590AFCC42975271E00B30A4D /* Expense.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		590AFCC3297526F000B30A4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				590AFCC6297527A600B30A4D /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		590AFCA82975257000B30A4D /* AnimationChallange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 590AFCB72975257100B30A4D /* Build configuration list for PBXNativeTarget "AnimationChallange" */;
+			buildPhases = (
+				590AFCA52975257000B30A4D /* Sources */,
+				590AFCA62975257000B30A4D /* Frameworks */,
+				590AFCA72975257000B30A4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimationChallange;
+			productName = AnimationChallange;
+			productReference = 590AFCA92975257000B30A4D /* AnimationChallange.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		590AFCA12975257000B30A4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					590AFCA82975257000B30A4D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 590AFCA42975257000B30A4D /* Build configuration list for PBXProject "AnimationChallange" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 590AFCA02975257000B30A4D;
+			productRefGroup = 590AFCAA2975257000B30A4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				590AFCA82975257000B30A4D /* AnimationChallange */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		590AFCA72975257000B30A4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590AFCBD2975263700B30A4D /* ALKATIP Kitab.ttf in Resources */,
+				590AFCB42975257100B30A4D /* Preview Assets.xcassets in Resources */,
+				590AFCBE2975263700B30A4D /* ALKATIP Kitab Tom.ttf in Resources */,
+				590AFCB12975257100B30A4D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		590AFCA52975257000B30A4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590AFCC52975271E00B30A4D /* Expense.swift in Sources */,
+				590AFCAF2975257000B30A4D /* ContentView.swift in Sources */,
+				590AFCC7297527A600B30A4D /* Home.swift in Sources */,
+				590AFCAD2975257000B30A4D /* AnimationChallangeApp.swift in Sources */,
+				590AFCC12975267300B30A4D /* FontView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		590AFCB52975257100B30A4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		590AFCB62975257100B30A4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		590AFCB82975257100B30A4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimationChallange/Preview Content\"";
+				DEVELOPMENT_TEAM = GKH95DV6MD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimationChallange/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.AnimationChallange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		590AFCB92975257100B30A4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimationChallange/Preview Content\"";
+				DEVELOPMENT_TEAM = GKH95DV6MD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimationChallange/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.AnimationChallange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		590AFCA42975257000B30A4D /* Build configuration list for PBXProject "AnimationChallange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590AFCB52975257100B30A4D /* Debug */,
+				590AFCB62975257100B30A4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		590AFCB72975257100B30A4D /* Build configuration list for PBXNativeTarget "AnimationChallange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590AFCB82975257100B30A4D /* Debug */,
+				590AFCB92975257100B30A4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 590AFCA12975257000B30A4D /* Project object */;
+}
